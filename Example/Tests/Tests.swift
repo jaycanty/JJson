@@ -8,7 +8,8 @@ class Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        json = loadJson(forFilename: "json")
+        let data = loadData(forFilename: "json")!
+        json = JJSON(data: data)
         print(json)
     }
     
@@ -17,25 +18,39 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testSubscripts() {
+        XCTAssert((json[1]?["foo_code"]?.int)! == 404)
+        XCTAssert((json[1]?["foo_rbody"]?["query"]?["info"]?["acme_no"]?.string)! == "444444")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
+    func testIterator() {
+        for item in json {
+            XCTAssert((item["foo_code"]?.int)! == 404)
+            XCTAssert((item["foo_rbody"]?["query"]?["info"]?["acme_no"]?.string)! == "444444")
         }
     }
     
-    func loadJson(forFilename fileName: String) -> JJSON? {
+    func testDict() {
+        for item in json {
+            if let dict = item.dict {
+                for (key, value) in dict {
+                    if key == "foo_code" {
+                        XCTAssert(value.int! == 404)
+                    }
+                    if key == "road_runner" {
+                        XCTAssert(value.string! == "123")
+                    }
+                }
+            }
+        }
+    }
+    
+    func loadData(forFilename fileName: String) -> Data? {
         if let url = Bundle(for: self.classForCoder).url(forResource: fileName, withExtension: "json") {
             if let data = try? Data(contentsOf: url) {
-                return JJSON(data: data)
+                return data
             }
         }
         return nil
     }
-    
 }
