@@ -22,7 +22,7 @@ pod "JJson"
 
 ## Author
 
-jay.canty@generalassemb.ly, jayiosdev@gmail.com
+jayiosdev@gmail.com
 
 ## License
 
