@@ -1,0 +1,6 @@
+framework module JJson {
+  umbrella header "JJson-umbrella.h"
+
+  export *
+  module * { export * }
+}
