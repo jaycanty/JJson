@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		694A98B61E6C97100006EA1F /* json.json in Resources */ = {isa = PBXBuildFile; fileRef = 694A98B51E6C97100006EA1F /* json.json */; };
 		C63692FFFCE6D834612D15D0 /* Pods_JJson_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47CF9958D9A1ED9EDAAE71DA /* Pods_JJson_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01EA904785785C8F39E38A61 /* JJson.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JJson.podspec; path = ../JJson.podspec; sourceTree = "<group>"; };
+		01EA904785785C8F39E38A61 /* JJson.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JJson.podspec; path = ../JJson.podspec; sourceTree = "<group>"; };
 		02003418F0F7CCF6F7050E7B /* Pods-JJson_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJson_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJson_Tests/Pods-JJson_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1786EAB4B9D35172580B5F5C /* Pods-JJson_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJson_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJson_Tests/Pods-JJson_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		47CF9958D9A1ED9EDAAE71DA /* Pods_JJson_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJson_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* JJson_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJson_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		CA213EC0016619FD27D47B2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E84B6F288E8E335FD8C906C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		694A98B51E6C97100006EA1F /* json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json.json; sourceTree = "<group>"; };
+		CA213EC0016619FD27D47B2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E84B6F288E8E335FD8C906C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				694A98B51E6C97100006EA1F /* json.json */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -131,10 +134,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
@@ -165,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694A98B61E6C97100006EA1F /* json.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

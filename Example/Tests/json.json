@@ -1,0 +1,94 @@
+[
+    {
+        "foo_code": 404,
+        "foo_rbody": {
+            "query": {
+                "info": {
+                    "acme_no": "444444",
+                    "road_runner": "123"
+                },
+                "error": "no_lunch",
+                "message": "runner problem."
+            }
+        },
+        "acme_no": "444444",
+        "road_runner": "123",
+        "xyzzy_code": 200,
+        "xyzzy_rbody": {
+            "api": {
+                "items": [
+                    {
+                        "desc": "OK",
+                        "id": 198,
+                        "acme_no": "789",
+                        "road_runner": "123",
+                        "params": {
+                            "bicycle": "2wheel",
+                            "willie": "hungry",
+                            "height": "1",
+                            "coyote_id": "1511111"
+                        },
+                        "activity": "TRAP",
+                        "state": "active",
+                        "status": 200,
+                        "type": "chase"
+                    },
+                    {
+                        "desc": "OK",
+                        "id": 198,
+                        "acme_no": "789",
+                        "road_runner": "123",
+                        "params": {
+                            "bicycle": "2wheel",
+                            "willie": "hungry",
+                            "height": "1",
+                            "coyote_id": "1511111"
+                        },
+                        "activity": "TRAP",
+                        "state": "active",
+                        "status": 200,
+                        "type": "chase"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "foo_code": 404,
+        "foo_rbody": {
+            "query": {
+                "info": {
+                    "acme_no": "444444",
+                    "road_runner": "123"
+                },
+                "error": "no_lunch",
+                "message": "runner problem."
+            }
+        },
+        "acme_no": "444444",
+        "road_runner": "123",
+        "xyzzy_code": 200,
+        "xyzzy_rbody": {
+            "api": {
+                "items": [
+                    {
+                        "desc": "OK",
+                        "id": 198,
+                        "acme_no": "789",
+                        "road_runner": "123",
+                        "params": {
+                            "bicycle": "2wheel",
+                            "willie": "hungry",
+                            "height": "1",
+                            "coyote_id": "1511111"
+                        },
+                        "activity": "TRAP",
+                        "state": "active",
+                        "status": 200,
+                        "type": "chase"
+                    }
+                ]
+            }
+        }
+    }
+]
