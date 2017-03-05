@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JJson'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JJson.'
+  s.summary          = 'Parse json'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This pod parses json and is syntactically similar to SwiftyJson.  It uses an enum to wrap json into a safe type.  This has not been tested enough to use for anything meaningful.'
 
-  s.homepage         = 'https://github.com/jay.canty@generalassemb.ly/JJson'
+  s.homepage         = 'https://github.com/jaycanty/JJson'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jay.canty@generalassemb.ly' => 'jayiosdev@gmail.com' }
-  s.source           = { :git => 'https://github.com/jay.canty@generalassemb.ly/JJson.git', :tag => s.version.to_s }
+  s.author           = 'jayiosdev@gmail.com'
+  s.source           = { :git => 'https://github.com/jaycanty/JJson.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.2'
 
   s.source_files = 'JJson/Classes/**/*'
   
