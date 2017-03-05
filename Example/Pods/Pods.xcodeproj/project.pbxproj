@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FF124BDC13503589E12FBD386363133 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958305B9277D7D32AD4726F8AFF99EF6 /* ReplaceMe.swift */; };
 		541F1BE1DC2E652634364A57FBA414B0 /* Pods-JJson_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 157BD4BF8B00C34AE4713386A52CEEBF /* Pods-JJson_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64EEBF543B84FBF2DBA9A1C6367F8088 /* Pods-JJson_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C713A95DF59EE530958D0782B5C317 /* Pods-JJson_Tests-dummy.m */; };
 		694A98B41E6C94790006EA1F /* JJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694A98B31E6C94790006EA1F /* JJSON.swift */; };
@@ -42,7 +41,6 @@
 		7EF1ED00B5AA1E365E9F7EB913AC2CDF /* Pods_JJson_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJson_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFB1DEE7BE81B177686696A12384761 /* JJson.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJson.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		958305B9277D7D32AD4726F8AFF99EF6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		AFBCC8A17AAF68AB7EDA0562BE555409 /* Pods-JJson_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJson_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB1546AEB3C856144B4E5BA597AB49A7 /* Pods-JJson_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJson_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -91,7 +89,6 @@
 		188CA174CCD85C46EE8A8342A9E5EEC8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				958305B9277D7D32AD4726F8AFF99EF6 /* ReplaceMe.swift */,
 				694A98B31E6C94790006EA1F /* JJSON.swift */,
 			);
 			path = Classes;
@@ -273,7 +270,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA35874012ACBC6AF43AE804198A13EB /* JJson-dummy.m in Sources */,
-				1FF124BDC13503589E12FBD386363133 /* ReplaceMe.swift in Sources */,
 				694A98B41E6C94790006EA1F /* JJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
