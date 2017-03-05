@@ -10,6 +10,7 @@
 		1FF124BDC13503589E12FBD386363133 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958305B9277D7D32AD4726F8AFF99EF6 /* ReplaceMe.swift */; };
 		541F1BE1DC2E652634364A57FBA414B0 /* Pods-JJson_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 157BD4BF8B00C34AE4713386A52CEEBF /* Pods-JJson_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64EEBF543B84FBF2DBA9A1C6367F8088 /* Pods-JJson_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C713A95DF59EE530958D0782B5C317 /* Pods-JJson_Tests-dummy.m */; };
+		694A98B41E6C94790006EA1F /* JJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694A98B31E6C94790006EA1F /* JJSON.swift */; };
 		697D0FAF1100306E078AE4CC8FE0F4B0 /* JJson-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15087F0BC090737ED3F448DD68A17AD0 /* JJson-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		770A8E809132B9037B63937F4F75D377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		BA35874012ACBC6AF43AE804198A13EB /* JJson-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E35CD63E1DED141CD407A9097E1E5 /* JJson-dummy.m */; };
@@ -29,17 +30,18 @@
 /* Begin PBXFileReference section */
 		15087F0BC090737ED3F448DD68A17AD0 /* JJson-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJson-umbrella.h"; sourceTree = "<group>"; };
 		157BD4BF8B00C34AE4713386A52CEEBF /* Pods-JJson_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJson_Tests-umbrella.h"; sourceTree = "<group>"; };
-		36B8FCE98112A8800B01CD394FB8EA52 /* Pods-JJson_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JJson_Tests.modulemap"; sourceTree = "<group>"; };
+		36B8FCE98112A8800B01CD394FB8EA52 /* Pods-JJson_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JJson_Tests.modulemap"; sourceTree = "<group>"; };
 		3D000F8391473155DC2232536C2F9087 /* Pods-JJson_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJson_Tests-resources.sh"; sourceTree = "<group>"; };
 		4B1E35CD63E1DED141CD407A9097E1E5 /* JJson-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJson-dummy.m"; sourceTree = "<group>"; };
-		4DD17CD3DF36DDC0735AE863CF4CF27E /* JJson.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JJson.modulemap; sourceTree = "<group>"; };
+		4DD17CD3DF36DDC0735AE863CF4CF27E /* JJson.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JJson.modulemap; sourceTree = "<group>"; };
 		605A4BC5E1D3220A1167D3F1E51A5C09 /* Pods-JJson_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJson_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		63C713A95DF59EE530958D0782B5C317 /* Pods-JJson_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJson_Tests-dummy.m"; sourceTree = "<group>"; };
+		694A98B31E6C94790006EA1F /* JJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJSON.swift; sourceTree = "<group>"; };
 		71E4A7474F3D0DEC2B338030B82FE07F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7323DC55452121224100EBF2CEC03FF3 /* Pods-JJson_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJson_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7EF1ED00B5AA1E365E9F7EB913AC2CDF /* Pods_JJson_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJson_Tests.framework; path = "Pods-JJson_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF1ED00B5AA1E365E9F7EB913AC2CDF /* Pods_JJson_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJson_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFB1DEE7BE81B177686696A12384761 /* JJson.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJson.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		958305B9277D7D32AD4726F8AFF99EF6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		AFBCC8A17AAF68AB7EDA0562BE555409 /* Pods-JJson_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJson_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CB1546AEB3C856144B4E5BA597AB49A7 /* Pods-JJson_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJson_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -47,7 +49,7 @@
 		D806D32B99259BFCACC18945CD25EA6B /* Pods-JJson_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJson_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EB5C2D225AC6A4DE1590C139EBFCA9BE /* JJson-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJson-prefix.pch"; sourceTree = "<group>"; };
 		FAD99DA4E9C51259676DC48E44DE5B0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC322C491EE0914FD68DFC9B6E14705F /* JJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJson.framework; path = JJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC322C491EE0914FD68DFC9B6E14705F /* JJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,6 @@
 			children = (
 				188CA174CCD85C46EE8A8342A9E5EEC8 /* Classes */,
 			);
-			name = JJson;
 			path = JJson;
 			sourceTree = "<group>";
 		};
@@ -91,8 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				958305B9277D7D32AD4726F8AFF99EF6 /* ReplaceMe.swift */,
+				694A98B31E6C94790006EA1F /* JJSON.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -273,6 +274,7 @@
 			files = (
 				BA35874012ACBC6AF43AE804198A13EB /* JJson-dummy.m in Sources */,
 				1FF124BDC13503589E12FBD386363133 /* ReplaceMe.swift in Sources */,
+				694A98B41E6C94790006EA1F /* JJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
