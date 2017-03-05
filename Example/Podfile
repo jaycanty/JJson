@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JJson_Tests' do
+  pod 'JJson', :path => '../'
+  
+  
+end
